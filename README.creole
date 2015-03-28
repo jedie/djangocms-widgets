@@ -1,0 +1,24 @@
+= djangocms-widgets
+
+A widget plugin for djangocms: Include templates into cms pages.
+
+== install:
+
+{{{
+INSTALLED_APPS += (
+    'djangocms_widgets',
+    'djangocms_widgets_socialshareprivacy', # Optional
+)
+
+# The existing templates that can be selected:
+WIDGET_TEMPLATES = (
+    ('socialshareprivacy.html', 'SocialSharePrivacy'), # from djangocms_widgets_socialshareprivacy
+)
+}}}
+
+=== SocialSharePrivacy widget
+
+The SocialSharePrivacy widget is a jQuery plugin for adding social share buttons to your website
+that don't allow the social sites to track your users.
+
+The original code is released under MIT License and can be found here: http://www.heise.de/extras/socialshareprivacy/ (de)

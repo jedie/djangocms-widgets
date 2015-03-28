@@ -1,0 +1,11 @@
+MANIFEST.in
+README.creole
+djangocms_widgets/__init__.py
+djangocms_widgets/admin.py
+djangocms_widgets/cms_plugins.py
+djangocms_widgets/models.py
+djangocms_widgets.egg-info/PKG-INFO
+djangocms_widgets.egg-info/SOURCES.txt
+djangocms_widgets.egg-info/dependency_links.txt
+djangocms_widgets.egg-info/not-zip-safe
+djangocms_widgets.egg-info/top_level.txt

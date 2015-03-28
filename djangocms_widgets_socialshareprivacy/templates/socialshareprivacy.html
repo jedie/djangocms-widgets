@@ -1,0 +1,28 @@
+{% load cms_tags sekizai_tags static compress %}
+
+{% addtoblock "js" %}
+<script type="text/javascript" src="{% static 'socialshareprivacy/jquery.socialshareprivacy.min.js' %}" onerror="console.log('Error loading: '+this.src);" onload="console.log(this.src+' loaded.');"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        if($('#socialshareprivacy').length > 0){
+            $('#socialshareprivacy').socialSharePrivacy({
+                'services' : {
+                    'facebook' : {
+                        'dummy_img' : "{% static 'socialshareprivacy/images/dummy_facebook.png' %}",
+                    },
+                    'twitter' : {
+                        'dummy_img' : "{% static 'socialshareprivacy/images/dummy_twitter.png' %}",
+                    },
+                    'gplus' : {
+                        'dummy_img' : "{% static 'socialshareprivacy/images/dummy_gplus.png' %}",
+                    }
+                },
+                "css_path"  : "{% static 'socialshareprivacy/socialshareprivacy.css' %}",
+                "lang_path" : "{% static 'socialshareprivacy/lang/' %}",
+                "language"  : "{{ LANGUAGE_CODE }}"
+            });
+        }
+    });
+</script>
+{% endaddtoblock %}
+<div id="socialshareprivacy"></div>

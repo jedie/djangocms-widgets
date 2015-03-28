@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: djangocms-widgets
+Version: 0.1.0b0
+Summary: Widget plugin for django CMS
+Home-page: UNKNOWN
+Author: Jens Diemer
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: =================
+        djangocms-widgets
+        =================
+        
+        a widget plugin for djangocms
+        
+        TBD
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript
+Classifier: Framework :: Django
+Classifier: Topic :: Communications
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Operating System :: OS Independent
