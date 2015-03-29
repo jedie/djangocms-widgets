@@ -2,6 +2,7 @@
 
 A widget plugin for djangocms: Include templates into cms pages.
 
+
 == install:
 
 {{{
@@ -16,6 +17,7 @@ WIDGET_TEMPLATES = (
 )
 }}}
 
+
 === SocialSharePrivacy widget
 
 The SocialSharePrivacy widget is a jQuery plugin for adding social share buttons to your website
@@ -23,9 +25,29 @@ that don't allow the social sites to track your users.
 
 The original code is released under MIT License and can be found here: http://www.heise.de/extras/socialshareprivacy/ (de)
 
+
 == history
 
 * v0.2.0 - 29.03.2015
 ** add initial migrations
 * v0.1.0 - 28.03.2015
 ** initial version
+
+== TODO
+
+Add unittests.
+
+
+== links
+
+| Homepage   | http://code.google.com/p/djangocms-widgets/
+| Sourcecode | http://github.com/jedie/djangocms-widgets
+| PyPi       | http://pypi.python.org/pypi/djangocms-widgets/
+
+
+=== contact ===
+
+Come into the conversation, besides the github communication features:
+
+| IRC     | #pylucid on freenode.net (Yes, the PyLucid channel...)
+| webchat | http://webchat.freenode.net/?channels=pylucid
