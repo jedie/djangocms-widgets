@@ -22,3 +22,10 @@ The SocialSharePrivacy widget is a jQuery plugin for adding social share buttons
 that don't allow the social sites to track your users.
 
 The original code is released under MIT License and can be found here: http://www.heise.de/extras/socialshareprivacy/ (de)
+
+== history
+
+* v0.2.0 - 29.03.2015
+** add initial migrations
+* v0.1.0 - 28.03.2015
+** initial version
